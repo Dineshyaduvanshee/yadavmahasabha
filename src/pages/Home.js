@@ -7,8 +7,12 @@ import "slick-carousel/slick/slick-theme.css";
 import akhilesh1 from "../assets/images/akhilesh1.jpg";
 import akhilesh2 from "../assets/images/akhilesh2.jpg";
 import lalu1 from "../assets/images/lalu1.jpg";
+import d1 from "../assets/images/d1.jpg";
+import d2 from "../assets/images/d2.jpg";
+import d3 from "../assets/images/d3.jpg";
+import d4 from "../assets/images/d4.jpg";
 
-const images = [akhilesh1, akhilesh2, lalu1];
+const images = [d1,d2,d3,d4,akhilesh1, akhilesh2, lalu1];
 
 function Home() {
   const settings = {
