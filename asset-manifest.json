@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yadavmahasabha/static/css/main.aec5a557.css",
+    "main.js": "/yadavmahasabha/static/js/main.12a492b0.js",
+    "static/js/453.6287b913.chunk.js": "/yadavmahasabha/static/js/453.6287b913.chunk.js",
+    "static/media/krishna.jpg": "/yadavmahasabha/static/media/krishna.fd7b1a5156d3444763a6.jpg",
+    "static/media/signature.png": "/yadavmahasabha/static/media/signature.aac7093262e9101eb262.png",
+    "static/media/logo.png": "/yadavmahasabha/static/media/logo.36c622eb66dc0afab36e.png",
+    "static/media/akhilesh1.jpg": "/yadavmahasabha/static/media/akhilesh1.a8d2f39a98aba7a2175f.jpg",
+    "static/media/slick.svg": "/yadavmahasabha/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/yadavmahasabha/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/yadavmahasabha/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/yadavmahasabha/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/yadavmahasabha/index.html",
+    "main.aec5a557.css.map": "/yadavmahasabha/static/css/main.aec5a557.css.map",
+    "main.12a492b0.js.map": "/yadavmahasabha/static/js/main.12a492b0.js.map",
+    "453.6287b913.chunk.js.map": "/yadavmahasabha/static/js/453.6287b913.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aec5a557.css",
+    "static/js/main.12a492b0.js"
+  ]
+}
