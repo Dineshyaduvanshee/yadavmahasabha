@@ -12,7 +12,7 @@ import d2 from "../assets/images/d2.jpg";
 import d3 from "../assets/images/d3.jpg";
 import d4 from "../assets/images/d4.jpg";
 
-const images = [d1,d2,d3,d4,akhilesh1, akhilesh2, lalu1];
+const images = [akhilesh1, akhilesh2, lalu1,d1,d2,d3,d4];
 
 function Home() {
   const settings = {
