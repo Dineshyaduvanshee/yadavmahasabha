@@ -33,6 +33,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Footer from './pages/Footer';
 import LoginWrapper from './pages/LoginWrapper'; // ✅ New import
+import Reels from './pages/Reels';
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/reels" element={<Reels />} />
           <Route path="/join" element={<LoginWrapper />} /> {/* ✅ Protected */}
         </Routes>
         <Footer />

@@ -229,6 +229,14 @@ function Header() {
                 About
               </Link>
             </li>
+            <li>
+              <Link
+                to="/reels"
+                className="text-gray-700 dark:text-white hover:text-blue-600"
+              >
+                Reals
+              </Link>
+            </li>
           </ul>
         </nav>
 
