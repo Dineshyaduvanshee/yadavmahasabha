@@ -54,81 +54,9 @@
 // export default Home;
 
 
-// import React from "react";
-// import Slider from "react-slick";
-// import "slick-carousel/slick/slick.css"; 
-// import "slick-carousel/slick/slick-theme.css";
-
-// import akhilesh1 from "../assets/images/akhilesh1.jpg";
-// import akhilesh2 from "../assets/images/akhilesh2.jpg";
-// import lalu1 from "../assets/images/lalu1.jpg";
-// import d1 from "../assets/images/d1.jpg";
-// import d2 from "../assets/images/d2.jpg";
-// import d3 from "../assets/images/d3.jpg";
-// import d4 from "../assets/images/d4.jpg";
-
-// const images = [
-//   { src: akhilesh1, caption: "Akhilesh Yadav - Visionary Leader" },
-//   { src: akhilesh2, caption: "Inspiring Youth & Progress" },
-//   { src: lalu1, caption: "Lalu Prasad Yadav - Strong Voice" },
-//   { src: d1, caption: "Yadav Unity at Events" },
-//   { src: d2, caption: "Cultural Pride" },
-//   { src: d3, caption: "Community Strength" },
-//   { src: d4, caption: "Leadership in Action" },
-// ];
-
-// function Home() {
-//   const settings = {
-//     dots: true,
-//     infinite: true,
-//     speed: 800,
-//     slidesToShow: 1,
-//     slidesToScroll: 1,
-//     autoplay: true,
-//     autoplaySpeed: 4000,
-//     arrows: false,
-//   };
-
-//   return (
-//     <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-pink-100 flex flex-col items-center justify-center p-6">
-//       <h2 className="text-4xl font-extrabold text-gray-800 mb-2 animate-fade-in-up">
-//         Welcome to <span className="text-red-600">Yadav Mahasabha</span>
-//       </h2>
-//       <p className="text-lg text-gray-600 mb-6 animate-fade-in-up delay-200">
-//         Join our community and stay connected with our mission and culture.
-//       </p>
-
-//       <div className="w-full max-w-4xl rounded-xl overflow-hidden shadow-xl border bg-black animate-fade-in-up delay-300">
-//         <Slider {...settings}>
-//           {images.map((item, index) => (
-//             <div key={index} className="relative">
-//               <img
-//                 src={item.src}
-//                 alt={`Slide ${index + 1}`}
-//                 className="w-full h-[450px] object-cover"
-//               />
-//               <div className="absolute bottom-0 left-0 w-full bg-black/50 text-white text-lg p-4 font-semibold">
-//                 {item.caption}
-//               </div>
-//             </div>
-//           ))}
-//         </Slider>
-//       </div>
-
-//       <button className="mt-8 px-6 py-3 bg-red-600 text-white font-semibold rounded-full shadow-md hover:bg-red-700 transition">
-//         Join Now
-//       </button>
-//     </div>
-//   );
-// }
-
-// export default Home;
-
-
-
 import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 
 import akhilesh1 from "../assets/images/akhilesh1.jpg";
@@ -151,34 +79,18 @@ const images = [
 
 function Home() {
   const settings = {
-    centerMode: true,
-    centerPadding: "60px",
     dots: true,
     infinite: true,
     speed: 800,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 4000,
     arrows: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-100 to-pink-200 flex flex-col items-center justify-center p-6">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-pink-100 flex flex-col items-center justify-center p-6">
       <h2 className="text-4xl font-extrabold text-gray-800 mb-2 animate-fade-in-up">
         Welcome to <span className="text-red-600">Yadav Mahasabha</span>
       </h2>
@@ -186,28 +98,24 @@ function Home() {
         Join our community and stay connected with our mission and culture.
       </p>
 
-      <div className="w-full max-w-6xl animate-fade-in-up delay-300">
+      <div className="w-full max-w-4xl rounded-xl overflow-hidden shadow-xl border bg-black animate-fade-in-up delay-300">
         <Slider {...settings}>
           {images.map((item, index) => (
-            <div key={index} className="px-2">
-              <div className="group bg-white border-4 border-gray-300 rounded-3xl shadow-xl overflow-hidden transform transition duration-500 hover:scale-105 hover:border-red-500 hover:shadow-2xl">
-                <div className="relative">
-                  <img
-                    src={item.src}
-                    alt={`Slide ${index + 1}`}
-                    className="w-full h-80 object-cover transition-transform duration-700 ease-in-out group-hover:scale-110"
-                  />
-                  <div className="absolute bottom-0 w-full bg-black/60 text-white p-4 text-sm font-semibold text-center">
-                    {item.caption}
-                  </div>
-                </div>
+            <div key={index} className="relative">
+              <img
+                src={item.src}
+                alt={`Slide ${index + 1}`}
+                className="w-full h-[450px] object-cover"
+              />
+              <div className="absolute bottom-0 left-0 w-full bg-black/50 text-white text-lg p-4 font-semibold">
+                {item.caption}
               </div>
             </div>
           ))}
         </Slider>
       </div>
 
-      <button className="mt-8 px-6 py-3 bg-gradient-to-r from-red-500 to-red-700 text-white font-semibold rounded-full shadow-md hover:shadow-lg transition">
+      <button className="mt-8 px-6 py-3 bg-red-600 text-white font-semibold rounded-full shadow-md hover:bg-red-700 transition">
         Join Now
       </button>
     </div>
@@ -215,3 +123,4 @@ function Home() {
 }
 
 export default Home;
+
